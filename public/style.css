@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Style the header to display horizontally */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+}
+
+/* Style the navigation links */
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 5px 10px;  /* Add padding if you want spacing around the text */
+}
+
+/* Remove the background "bubbles" and ensure the links are visible */
+nav ul li a:hover {
+    color: #f4a261;  /* This is the hover color for links */
+    background-color: transparent; /* Make sure background is transparent */
+}
+
+/* Styling for h1 */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 50%;
+}
+
+li {
+    /* background: #fff; */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
